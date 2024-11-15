@@ -2,7 +2,7 @@ torch==2.1.1
 opencv-python
 pytorch-toolbelt==0.6.3
 numpy==1.23.1
-diffusers==0.21.4
+diffusers==0.31.0
 controlnet_aux==0.0.6
 matplotlib==3.7.2
 ultralytics==8.2.31
@@ -18,4 +18,5 @@ compel==2.0.2
 tinydb==4.8.0
 xmltodict==0.13.0
 huggingface==0.0.1
+huggingface-hub==0.26.2
 -e git+https://github.com/huggingface/transformers.git

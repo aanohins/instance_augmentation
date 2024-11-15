@@ -1,9 +1,9 @@
 env:
 	pip install -e .
 	pip install pytest pytest-cov
-	git clone https://github.com/IDEA-Research/GroundingDINO.git
+	git clone --no-checkout https://github.com/IDEA-Research/GroundingDINO.git
 	cd GroundingDINO
-	git checkout -q 57535c5a79791cb76e36fdb64975271354f10251
+	git checkout 57535c5a79791cb76e36fdb64975271354f10251
 	pip install -q -e .
 	cd ..
 	pip install 'git+https://github.com/facebookresearch/segment-anything.git'
