@@ -19,4 +19,5 @@ tinydb==4.8.0
 xmltodict==0.13.0
 huggingface==0.0.1
 huggingface-hub==0.26.2
+mediapipe==0.10.18
 -e git+https://github.com/huggingface/transformers.git
